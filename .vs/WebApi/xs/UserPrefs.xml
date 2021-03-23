@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{3DF5D769-6FC6-4E71-9AD1-FF83C4AE194F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApi.DB/WebApiDbContext.cs">
+    <Files>
+      <File FileName="WebApi.Api/Program.cs" Line="16" Column="1" />
+      <File FileName="WebApi.Core/Models/Material.cs" />
+      <File FileName="WebApi.Core/Models/MaterialVersion.cs" />
+      <File FileName="WebApi.Api/appsettings.json" Line="6" Column="3" />
+      <File FileName="WebApi.Core/Interfaces/IMaterialServices.cs" />
+      <File FileName="WebApi.DB/Repositories/MaterialRepository.cs" />
+      <File FileName="WebApi.DB/Repositories/MaterialVersionRepository.cs" />
+      <File FileName="WebApi.Core/Interfaces/IRepository.cs" />
+      <File FileName="WebApi.DB/Repositories/Repository.cs" />
+      <File FileName="WebApi.Api/Startup.cs" Line="39" Column="59" />
+      <File FileName="WebApi.Api/Map/MapperProfile.cs" />
+      <File FileName="WebApi.Api/Dto/MaterialDto.cs" />
+      <File FileName="WebApi.Api/Dto/MaterialVersionDto.cs" />
+      <File FileName="WebApi.Api/Dto/UploadMaterialDto.cs" />
+      <File FileName="WebApi.Api/Dto/UploadMaterialVersionDto.cs" />
+      <File FileName="WebApi.Api/Properties/launchSettings.json" />
+      <File FileName="WebApi.Api/Validations/SaveMaterialValidator.cs" />
+      <File FileName="WebApi.Api/Validations/SaveVersionValidator.cs" />
+      <File FileName="WebApi.Api/Controllers/MaterialController.cs" Line="48" Column="48" />
+      <File FileName="WebApi.Api/Controllers/VersionController.cs" Line="36" Column="77" />
+      <File FileName="WebApi.BL/MaterialService.cs" Line="98" Column="10" />
+      <File FileName="WebApi.DB/WebApiDbContext.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebApi" expanded="True">
+            <Node name="WebApi.Api" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="WebApi.BL" expanded="True" />
+            <Node name="WebApi.Core" expanded="True">
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="WebApi.DB" expanded="True">
+              <Node name="WebApiDbContext.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WebApi.Api PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>

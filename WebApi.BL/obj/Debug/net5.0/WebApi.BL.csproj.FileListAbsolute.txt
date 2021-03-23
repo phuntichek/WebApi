@@ -1,0 +1,15 @@
+/Users/phuntik/Desktop/WebApi/WebApi.BL/bin/Debug/net5.0/WebApi.BL.deps.json
+/Users/phuntik/Desktop/WebApi/WebApi.BL/bin/Debug/net5.0/WebApi.BL.dll
+/Users/phuntik/Desktop/WebApi/WebApi.BL/bin/Debug/net5.0/ref/WebApi.BL.dll
+/Users/phuntik/Desktop/WebApi/WebApi.BL/bin/Debug/net5.0/WebApi.BL.pdb
+/Users/phuntik/Desktop/WebApi/WebApi.BL/bin/Debug/net5.0/WebApi.Core.dll
+/Users/phuntik/Desktop/WebApi/WebApi.BL/bin/Debug/net5.0/WebApi.Core.pdb
+/Users/phuntik/Desktop/WebApi/WebApi.BL/obj/Debug/net5.0/WebApi.BL.csprojAssemblyReference.cache
+/Users/phuntik/Desktop/WebApi/WebApi.BL/obj/Debug/net5.0/WebApi.BL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/phuntik/Desktop/WebApi/WebApi.BL/obj/Debug/net5.0/WebApi.BL.AssemblyInfoInputs.cache
+/Users/phuntik/Desktop/WebApi/WebApi.BL/obj/Debug/net5.0/WebApi.BL.AssemblyInfo.cs
+/Users/phuntik/Desktop/WebApi/WebApi.BL/obj/Debug/net5.0/WebApi.BL.csproj.CoreCompileInputs.cache
+/Users/phuntik/Desktop/WebApi/WebApi.BL/obj/Debug/net5.0/WebApi.BL.csproj.CopyComplete
+/Users/phuntik/Desktop/WebApi/WebApi.BL/obj/Debug/net5.0/WebApi.BL.dll
+/Users/phuntik/Desktop/WebApi/WebApi.BL/obj/Debug/net5.0/ref/WebApi.BL.dll
+/Users/phuntik/Desktop/WebApi/WebApi.BL/obj/Debug/net5.0/WebApi.BL.pdb

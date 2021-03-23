@@ -1,0 +1,313 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/phuntik/Desktop/WebApi/WebApi.Api/WebApi.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/phuntik/Desktop/WebApi/WebApi.Api/WebApi.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/phuntik/Desktop/WebApi/WebApi.Api/WebApi.Api.csproj",
+        "projectName": "WebApi.Api",
+        "projectPath": "/Users/phuntik/Desktop/WebApi/WebApi.Api/WebApi.Api.csproj",
+        "packagesPath": "/Users/phuntik/.nuget/packages/",
+        "outputPath": "/Users/phuntik/Desktop/WebApi/WebApi.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/phuntik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/phuntik/Desktop/WebApi/WebApi.BL/WebApi.BL.csproj": {
+                "projectPath": "/Users/phuntik/Desktop/WebApi/WebApi.BL/WebApi.BL.csproj"
+              },
+              "/Users/phuntik/Desktop/WebApi/WebApi.Core/WebApi.Core.csproj": {
+                "projectPath": "/Users/phuntik/Desktop/WebApi/WebApi.Core/WebApi.Core.csproj"
+              },
+              "/Users/phuntik/Desktop/WebApi/WebApi.DB/WebApi.DB.csproj": {
+                "projectPath": "/Users/phuntik/Desktop/WebApi/WebApi.DB/WebApi.DB.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Analyzers": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/phuntik/Desktop/WebApi/WebApi.BL/WebApi.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/phuntik/Desktop/WebApi/WebApi.BL/WebApi.BL.csproj",
+        "projectName": "WebApi.BL",
+        "projectPath": "/Users/phuntik/Desktop/WebApi/WebApi.BL/WebApi.BL.csproj",
+        "packagesPath": "/Users/phuntik/.nuget/packages/",
+        "outputPath": "/Users/phuntik/Desktop/WebApi/WebApi.BL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/phuntik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/phuntik/Desktop/WebApi/WebApi.Core/WebApi.Core.csproj": {
+                "projectPath": "/Users/phuntik/Desktop/WebApi/WebApi.Core/WebApi.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/phuntik/Desktop/WebApi/WebApi.Core/WebApi.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/phuntik/Desktop/WebApi/WebApi.Core/WebApi.Core.csproj",
+        "projectName": "WebApi.Core",
+        "projectPath": "/Users/phuntik/Desktop/WebApi/WebApi.Core/WebApi.Core.csproj",
+        "packagesPath": "/Users/phuntik/.nuget/packages/",
+        "outputPath": "/Users/phuntik/Desktop/WebApi/WebApi.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/phuntik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/phuntik/Desktop/WebApi/WebApi.DB/WebApi.DB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/phuntik/Desktop/WebApi/WebApi.DB/WebApi.DB.csproj",
+        "projectName": "WebApi.DB",
+        "projectPath": "/Users/phuntik/Desktop/WebApi/WebApi.DB/WebApi.DB.csproj",
+        "packagesPath": "/Users/phuntik/.nuget/packages/",
+        "outputPath": "/Users/phuntik/Desktop/WebApi/WebApi.DB/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/phuntik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/phuntik/Desktop/WebApi/WebApi.Core/WebApi.Core.csproj": {
+                "projectPath": "/Users/phuntik/Desktop/WebApi/WebApi.Core/WebApi.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
